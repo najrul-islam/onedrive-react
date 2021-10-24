@@ -41,13 +41,13 @@ export class OneDriveTsx extends React.Component {
         }
     }
     private onSuccess(keys: any) {
-        console.log('onSuccess', keys);
+        //console.log('onSuccess', keys);
         //send message to parent window (hoxro app)
         window.parent.postMessage(keys, '*');
     }
 
     private onCancel(err: any) {
-        console.log('onCancel', err.message);
+        //console.log('onCancel', err.message);
     }
 }
 
