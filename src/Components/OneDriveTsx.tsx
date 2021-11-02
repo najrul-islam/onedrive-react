@@ -52,8 +52,8 @@ export class OneDriveTsx extends React.Component {
                 const dItem = {...item.driveItem_203};
                 const newItem: IOneDriveItem = {
                     endpoint: dItem[0],
-                    itemId : dItem[1],
-                    driveId: dItem[2]
+                    driveId : dItem[1],
+                    itemId: dItem[2]
                 };
                 // console.log(item, newItem);
                 newItems.push(newItem);

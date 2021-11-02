@@ -1,8 +1,8 @@
-import React from 'react';
-import logo from './logo.svg';
+// import React from 'react';
+// import logo from './logo.svg';
 import './App.css';
 import { GraphFileBrowser } from '@microsoft/file-browser';
-import { useLocation, Router } from 'react-router-dom';
+import { Router } from 'react-router-dom';
 import { createBrowserHistory } from 'history';
 
 function App() {
